@@ -119,3 +119,17 @@ const names = "Colin|Mesuara|Drew|In Seop|Emma|Ben|J|Ryan|Olgy|Mike|Chris|John";
 // You'll know you're at a new person's name when you hit the pipe character.
 
 // Don't print the pipes!
+counter = 0;
+
+while (counter < names.length) {
+  if (counter === 0) {
+    console.log("Here today is:");
+  }
+  if (names[counter] === "|") {
+    console.log("Here today is:");
+    counter++;
+  }
+  console.log(names[counter]);
+
+  counter++;
+}
